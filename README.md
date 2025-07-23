@@ -1,45 +1,41 @@
-# 🖼️ Interactive Image Carousel
+# 🌦️ Weather Widget Dashboard
 
-A sleek and touch-friendly image slider made with HTML, CSS, and vanilla JavaScript.
+A professional and responsive weather application built with vanilla JavaScript. It fetches current weather and a 5-day forecast for any city using the OpenWeatherMap API.
 
 ## ✨ Features
 
-- ▶️ Auto-play with play/pause button
-- ⬅️➡️ Previous and Next arrows
-- 🔘 Dot indicators for navigation
-- 📱 Mobile swipe support
-- ⌨️ Keyboard navigation (left/right arrows)
-- 💡 Smooth fade transitions
-- 📐 Fully responsive design
+- 🔍 Search for any city
+- 📍 Use your current location (Geolocation API)
+- 🌡️ Toggle between Celsius and Fahrenheit
+- 🕒 5-day forecast display
+- 🌤️ Weather icons and detailed description
+- 📱 Responsive design
+- ⚠️ Error messages for invalid inputs
+- 🔄 Loading animation while fetching data
 
 ## 📁 File Structure
 
 ```
-/image-carousel/
-├── index.html         # Main structure
-├── style.css          # Design and layout
-├── script.js          # Carousel logic
-├── assets/
-│   └── images/
-│       ├── img1.jpg
-│       ├── img2.jpg
-│       └── img3.jpg
+/weather-widget/
+├── index.html       # Main HTML file
+├── style.css        # Styling (Responsive and Modern)
+├── script.js        # Weather data logic
 ```
 
 ## 🔧 Technologies Used
 
 - HTML5, CSS3
-- Vanilla JavaScript (event listeners, timers)
-- Responsive & mobile-first design
+- JavaScript (DOM manipulation, Fetch API)
+- OpenWeatherMap API
 
 ## 🎓 Learning Outcomes
 
-- DOM-based navigation
-- Dynamic class manipulation
-- Event handling (click, touch, keyboard)
-- Auto-play loop and timing functions
-- Building mobile-compatible components
+- Mastering API requests with JavaScript
+- User input validation and error handling
+- Geolocation integration
+- Real-time weather visualization
+- Responsive web UI development
 
 ---
 
-© 2025 | Created by Sezibera Obed
+© 2025 | Built with ❤️ by Sezibera Obed
