@@ -3,27 +3,38 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Weather Widget</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="styles.css">
+  <title>Weather Widget Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <header>
-    <h1>🌤️ Weather Widget</h1>
-    <p>Get real-time weather updates for any city</p>
-  </header>
+  <main class="container">
+    <section class="search-section">
+      <input type="text" id="cityInput" placeholder="Enter city name..." />
+      <button id="searchBtn">Search</button>
+      <button id="locationBtn">Use My Location</button>
+    </section>
 
-  <div class="weather-container">
-    <div class="search-box">
-      <input type="text" id="cityInput" placeholder="Enter city name...">
-      <button onclick="getWeather()">Search</button>
-    </div>
-    <div class="weather-result" id="weatherResult"></div>
-  </div>
+    <section class="weather-display hidden" id="weatherDisplay">
+      <div class="current-weather">
+        <h2 id="cityName"></h2>
+        <p id="weatherDescription"></p>
+        <div class="weather-info">
+          <img id="weatherIcon" alt="Weather Icon" />
+          <p><span id="temperature"></span> <sup>o</sup><span id="unit">C</span></p>
+        </div>
+        <button id="toggleUnit">Switch to °F</button>
+      </div>
 
-  <footer>
-    Created by Obed Sezibera | 2025 JavaScript Mastery Projects
-  </footer>
-<script src="script.js"></script>
+      <div class="forecast">
+        <h3>5-Day Forecast</h3>
+        <div id="forecastContainer"></div>
+      </div>
+    </section>
+
+    <section id="loading" class="hidden">Loading...</section>
+    <section id="error" class="error hidden"></section>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
