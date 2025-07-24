@@ -1,41 +1,35 @@
-# 🌦️ Weather Widget Dashboard
+ 🌦️ Weather Widget
 
-A professional and responsive weather application built with vanilla JavaScript. It fetches current weather and a 5-day forecast for any city using the OpenWeatherMap API.
+This is a simple, responsive Weather Widget built using **HTML**, **CSS**, and **JavaScript**.  
+It fetches **real-time weather data** from the [OpenWeatherMap API](https://openweathermap.org/api) based on the city name entered by the user.
 
-## ✨ Features
+---
+ 🔧 Features
 
-- 🔍 Search for any city
-- 📍 Use your current location (Geolocation API)
-- 🌡️ Toggle between Celsius and Fahrenheit
-- 🕒 5-day forecast display
-- 🌤️ Weather icons and detailed description
-- 📱 Responsive design
-- ⚠️ Error messages for invalid inputs
-- 🔄 Loading animation while fetching data
-
-## 📁 File Structure
-
-```
-/weather-widget/
-├── index.html       # Main HTML file
-├── style.css        # Styling (Responsive and Modern)
-├── script.js        # Weather data logic
-```
-
-## 🔧 Technologies Used
-
-- HTML5, CSS3
-- JavaScript (DOM manipulation, Fetch API)
-- OpenWeatherMap API
-
-## 🎓 Learning Outcomes
-
-- Mastering API requests with JavaScript
-- User input validation and error handling
-- Geolocation integration
-- Real-time weather visualization
-- Responsive web UI development
+- 🔍 Search for the current weather in any city
+- 🌡️ Displays temperature, humidity, weather condition, and description
+- 🌐 Fetches live data using the OpenWeatherMap API
+- 🎨 Clean and responsive design
 
 ---
 
-© 2025 | Built with ❤️ by Sezibera Obed
+ 🚀 Demo
+
+![Weather Widget Screenshot](."C:\Users\User\Pictures\Screenshots\Screenshot 2025-07-24 231240.png")  
+🔗 Live Demo: [click here ](https://weather-widget-dash.netlify.app/)
+
+---
+
+ 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- OpenWeatherMap API
+
+---
+ ⚙️ Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/sezibera-obed/weather-widget.git
